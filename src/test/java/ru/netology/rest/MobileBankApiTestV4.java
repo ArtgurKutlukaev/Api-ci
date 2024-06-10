@@ -14,7 +14,7 @@ class MobileBankApiTestV4 {
                 .baseUri("http://localhost:9999/api/v1")
                 // Выполняемые действия
                 .when()
-                .get("/demo/accounts")
+                 .get("/demo/accounts")
                 // Проверки
                 .then()
                 // Включаем логирование ответа
